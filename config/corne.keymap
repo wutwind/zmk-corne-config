@@ -90,6 +90,11 @@
             key-positions = <2 3>;
             timeout-ms = <20>;
         };
+        UnderscoreSign {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <2 4>;
+            timeout-ms = <20>;
+        };
         EqualSign {
             bindings = <&kp EQUAL>;
             key-positions = <2 3 4>;
@@ -104,6 +109,11 @@
         DoubleQuote {
             bindings = <&kp DQT>;
             key-positions = <8 9>;
+            timeout-ms = <20>;
+        };
+        GraveSign {
+            bindings = <&kp GRAVE>;
+            key-positions = <7 9>;
             timeout-ms = <20>;
         };
         TildeSign {
