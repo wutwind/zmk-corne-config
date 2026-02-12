@@ -171,7 +171,7 @@
         };
         LangRight {
             bindings = <&kp RG(SPACE)>;
-            key-positions = <19 20 21>;
+            key-positions = <31 32 33>;
             timeout-ms = <28>;
         };
 
@@ -216,9 +216,9 @@
                 default_layer {
                         bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                  &kp GRAVE     &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P        &kp C_VOL_UP
+                  &kp GRAVE     &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P         &kp C_VOL_UP
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp TAB     &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHIFT F   &kp G             &kp H       &hmr RSHIFT J &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp C_VOL_D
+                  &kp TAB     &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHIFT F   &kp G             &kp H       &hmr RSHIFT J &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI  &kp C_VOL_D
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                   &kp ESC       &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RBKT
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
